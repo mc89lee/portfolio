@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap');
+
+header{
+	background-color: #00195C;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 0px;
+	background: #2A7B9B;
+	background: linear-gradient(60deg, rgba(0, 0, 0, 2) 0%, rgba(200, 0, 0, 1) 50%, rgba(0, 0, 125, 1) 100%);
+}
+header h1{
+	line-height: 200%;
+	margin: 0;
+	color: white;
+}
+
+body{
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	border-top: 10px solid #014B62;
+	border-bottom: 10px solid #014B62;
+}
+
+h1,h2,h3,h4{
+	font-family: "Play", sans-serif;
+	color: #ff0000;
+}
+
+/* Navigation */
+
+nav{
+	font-weight: bold;
+	background-color: black;
+	text-align: center;
+	line-height: 200%;
+}
+main{
+	max-width: 1000px;
+	margin: 30px auto;
+	padding: 10px;
+}
+.resume{
+	border-left: 1px solid orangered;
+	max-width: 800px;
+	padding-left: 30px;
+}
+footer{
+
+	padding: 10px;
+	font-style: italic;
+	color: white;
+	text-align: center;
+	background: linear-gradient(75deg, rgba(0, 0, 0, 2) 0%, rgba(60, 00, 00, 3) 50%, rgba(0, 0, 90, 1) 100%);
+}
+.logo{
+	max-width: 100%;
+	height: auto;
+	padding-top: 15px;
+}
+.logo:hover{
+	opacity: 0.8;
+}
+.fa{
+	font-size: 2em;
+	color: ghostwhite;
+}
+nav{
+	text-decoration: none;
+}
+.home-hero{
+	background-image: url(images/beach1.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: top center;
+}
+.home-hero h1{
+	font-family: 'Dancing Script', cursive;
+	color: orangered;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding: 50px 0;
+	margin: 0;
+}
+h1{
+	font-size: 3.5em;
+}
+h2{
+	text-align: left 20%;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+}
+nav li{
+	display: inline;
+	padding: 10px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: orange;
+}
+nav a:visited{
+	color:whitesmoke;
+}
+nav a:hover{
+	color: greenyellow;
+}
+nav a:active{
+	color: paleturquoise;
+}
+nav selector{
+	background-color: cornflowerblue;
+}
+border-top: 20px solid #66ff66;
+}
+
+a.button-design{
+	color: white;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 8px 25px;
+	font-weight: bold;
+}
+a.button-design:link{
+	background-color: #1C2995;
+}
+a.button-design:hover{
+	background-color: #E8133b;
+}
+.float-right{
+	float: right;
+	max-width: 50%;
+	height: auto;
+	margin: 50px 0 10px 20px;
+
+}
+.float-left{
+	float: left;
+	margin: 30px 30px 30px 0;
+}
+.text-box{
+	float: right;
+	max-width: 40%;
+	margin: 10px 20px 10px 20px;
+	background: orangered;
+	border-radius: 5px;
+	padding: 10px;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+form{
+	margin: auto;
+}
+input{
+	background-color: lightcoral;
+	height: 20px;
+	border-radius: 5px;
+	margin-bottom: 1em;
+	display: block;
+}
+input[type=submit]{
+	background-color: deeppink;
+}
+@media only screen and (max-width: 1024px){
+	/* The CSS will work ONLY IF the screen size is less than 1024px (tablets and smartphones) */
+	h1{
+		font-size: 2.5em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+	h3{
+		font-size: 1.3em;
+	}
+	main,
+	footer{
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	/* The CSS will work ONLY IF the screen size is less than 768px (smartphones only) */
+
+	h1{
+		font-size: 2em;
+	}
+	.home-hero{
+		height: 125px;
+	}
+	.home-hero h1{
+		height: 125px;
+		font-size: 1.5em;
+		padding-top: 45px;
+	}
+	.text-box{
+		float: none;
+		max-width: 100%;
+		display: block;
+	}
+	nav ul{
+		padding: 0;
+		margin: 0;
+
+	}
+	nav li{
+		display: block;
+		padding-top: .5em;
+		padding-bottom: .5em;
+		padding-left: 1em;
+		padding-right: 1em;
+		border-bottom: solid 1px gray;
+	}
+	.float-right,
+	.float-left{
+		display: none;
+	}
+}
+
+game:{
+	margin: center;
+}
